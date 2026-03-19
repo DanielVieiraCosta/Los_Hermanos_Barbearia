@@ -7,9 +7,9 @@ import Services from '@/components/Services.vue';
 </script>
 
 <template>
-  <nav class="fundo_dark navbar sticky-top navbar-expand-lg border-bottom border-2">
+  <nav class="fundo_dark navbar navbar-dark sticky-top navbar-expand-lg border-bottom border-2">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barra_nav" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barra_nav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="barra_nav">
