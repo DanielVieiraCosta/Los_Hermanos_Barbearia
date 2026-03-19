@@ -54,9 +54,14 @@
   padding-bottom: 10%;
 }
 
-.nav{
+.navbar{
   --bs-border-color: #9C7A35;
-  --bs-nav-link-padding-y: 14px;
-  --bs-nav-link-color: #F2F2F2;
-  --bs-nav-link-hover-color: #E0C27A;
+  --bs-navbar-color: #F2F2F2;
+  --bs-navbar-hover-color: #E0C27A;
+  --bs-navbar-active-color: #E0C27A;
+  --bs-navbar-nav-link-padding-x: 14px;
+}
+
+html {
+  scroll-padding-top: 58px;
 }

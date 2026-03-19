@@ -5,7 +5,7 @@
   <main class="fundo_secundario">
     <div class="container" id="sobre">
       <div class="row pt-4">
-        <div class="col-6">
+        <div class="col-12 col-lg-6">
           <p>SOBRE NÓS</p>
           <h2>Bem-Vindo à Los Hermanos</h2>
           <p>
@@ -13,7 +13,7 @@
           </p>
           <a href="https://www.facebook.com/loshermanosmarilia/?locale=pt_BR" target="_blank"><button class="button_gold mt-4">SAIBA MAIS</button></a>
         </div>
-        <div class="col-6 text-center">
+        <div class="col-6 text-center d-none d-lg-block">
           <img src="/src/assets/barbearia 2.webp" class="rounded" width="480px" height="300px">
         </div>
       </div>
