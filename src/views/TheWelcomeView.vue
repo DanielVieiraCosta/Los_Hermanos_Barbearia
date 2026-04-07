@@ -1,7 +1,9 @@
 <script setup>
 import AboutUs from '@/components/AboutUs.vue';
+import Barber from '@/components/Barber.vue';
 import Footer from '@/components/Footer.vue';
 import Gallery from '@/components/Gallery.vue';
+import Modal from '@/components/Modal.vue';
 import Reserve from '@/components/Reserve.vue';
 import Services from '@/components/Services.vue';
 </script>
@@ -24,10 +26,13 @@ import Services from '@/components/Services.vue';
             <a class="nav-link" href="#servicos">SERVIÇOS</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#profissionais">PROFISSIONAIS</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#galeria">GALERIA</a>
           </li>
           <li class="nav-item ms-lg-auto pt-1 pe-4">
-            <a href="https://w.app/barbearialoshermanos" target="_blank"><button class="button_gold">RESERVAR HORÁRIO</button></a>
+            <button class="button_gold" data-bs-toggle="modal" data-bs-target="#modal_reserva">RESERVAR HORÁRIO</button>
           </li>
         </ul>
       </div>
@@ -38,7 +43,9 @@ import Services from '@/components/Services.vue';
     <Reserve />
     <AboutUs />
     <Services />
+    <Barber />
     <Gallery />
+    <Modal />
   </main>
   
   <footer class="fundo_dark">

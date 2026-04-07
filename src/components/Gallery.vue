@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-  <main class="fundo_secundario">
+  <main>
     <div class="container pt-4 pb-4" id="galeria">
       <div class="row">
         <div class="col-12 col-xl-5">

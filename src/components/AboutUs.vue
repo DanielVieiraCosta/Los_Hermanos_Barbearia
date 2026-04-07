@@ -11,7 +11,7 @@
           <p>
             Nossa barbearia é um espaço dedicado ao estilo, cuidado e tradição. Contamos com profissionais qualificados que oferecem cortes de cabelo e barba com atenção aos detalhes, sempre buscando valorizar o visual e a confiança de cada cliente em um ambiente confortável e acolhedor.
           </p>
-          <a href="https://www.facebook.com/loshermanosmarilia/?locale=pt_BR" target="_blank"><button class="button_gold mt-4">SAIBA MAIS</button></a>
+          <a href="https://www.instagram.com/loshermanosmarilia/" target="_blank"><button class="button_gold mt-4">SAIBA MAIS</button></a>
         </div>
         <div class="col-6 text-center d-none d-lg-block">
           <img src="/src/assets/barbearia 2.webp" class="rounded" width="480px" height="300px">
