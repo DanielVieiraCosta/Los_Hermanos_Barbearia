@@ -8,7 +8,7 @@
       <div class="row justify-content-around pt-4 gap-2">
         <div class="card card_dark" style="width: 15rem;">
           <a data-bs-toggle="modal" data-bs-target="#sobre_tinetti">
-            <img src="/src/assets/barbeiros/img_tinetti.jpeg" class="card-img-top">
+            <img src="/src/assets/barbeiros/img_tinetti.jpeg" class="card-img-top mt-3" height="280px">
             <div class="card-body">
               <h6>Bruno Tinetti — Unidade Centro (Unidade 1)</h6>
             </div>
@@ -16,7 +16,7 @@
         </div>
         <div class="card card_dark" style="width: 15rem;">
           <a data-bs-toggle="modal" data-bs-target="#sobre_rafael">
-            <img src="/src/assets/barbeiros/img_rafael.jpeg" class="card-img-top">
+            <img src="/src/assets/barbeiros/img_rafael.jpeg" class="card-img-top mt-3" height="280px">
             <div class="card-body">
               <h6>Rafael "Feijão" - Unidade Centro (Unidade 1)</h6>
             </div>
@@ -24,7 +24,7 @@
         </div>
         <div id="collapseBarber" class="card card_dark collapse d-md-block" style="width: 15rem;">
           <a data-bs-toggle="modal" data-bs-target="#sobre_gabriel">
-            <img src="/src/assets/barbeiros/img_gabriel.jpeg" class="card-img-top">
+            <img src="/src/assets/barbeiros/img_gabriel.jpeg" class="card-img-top mt-3" height="280px">
             <div class="card-body">
               <h6>Gabriel - Unidade 2</h6>
             </div>
@@ -32,9 +32,17 @@
         </div>
         <div id="collapseBarber" class="card card_dark collapse d-md-block" style="width: 15rem;">
           <a data-bs-toggle="modal" data-bs-target="#sobre_ferris">
-            <img src="/src/assets/barbeiros/img_ferris.jpeg" class="card-img-top">
+            <img src="/src/assets/barbeiros/img_ferris.jpeg" class="card-img-top mt-3" height="280px">
             <div class="card-body">
               <h6>Rafael Ferris — Unidade Centro (Unidade 1)</h6>
+            </div>
+          </a>
+        </div>
+        <div id="collapseBarber" class="card card_dark collapse d-md-block" style="width: 15rem;">
+          <a data-bs-toggle="modal" data-bs-target="#sobre_pedro">
+            <img src="/src/assets/barbeiros/img_pedro.jpeg" class="card-img-top mt-3" height="280px">
+            <div class="card-body">
+              <h6>Pedro - Unidade 2</h6>
             </div>
           </a>
         </div>
@@ -110,6 +118,25 @@
             <p>Com anos de experiência, o Rafael se destaca pelo seu cuidado e capricho em cada cliente.</p>
             <p>Seu grande diferencial está nos penteados e finalizações, sempre trazendo estilo e identidade pro corte.</p>
             <p>É aquele profissional que entende o que você quer, e muitas vezes entrega ainda melhor.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Voltar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="sobre_pedro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modal_reserve">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Pedro - Unidade 2</h1>
+            <button type="button" class="btn_close ms-lg-auto" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+          </div>
+          <div class="modal-body">
+            <p>O mais novo da casa, o Pedro traz energia, dedicação e muita vontade de crescer na profissão.</p>
+            <p>Com um atendimento leve e gente boa, ele conquista pela simpatia e cuidado com cada cliente.</p>
+            <p>Uma promessa que já vem mostrando muito potencial na cadeira.</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Voltar</button>
