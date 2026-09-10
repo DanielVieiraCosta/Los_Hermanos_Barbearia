@@ -5,7 +5,7 @@
     <div class="container reserva">
       <img src="/src/assets/logo_escrita.png" width="300px">
         <p class="mt-4">Estilo e sofisticação para homens modernos</p>
-        <button class="button_gold_big" data-bs-toggle="modal" data-bs-target="#modal_reserva">RESERVAR HORÁRIO</button>
+        <a href="https://reservas.loshermanosmarilia.com.br"><button class="button_gold_big">RESERVAR HORÁRIO</button></a>
     </div>
   </main>
 </template>

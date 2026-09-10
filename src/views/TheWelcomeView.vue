@@ -32,7 +32,7 @@ import Services from '@/components/Services.vue';
             <a class="nav-link" href="#galeria">GALERIA</a>
           </li>
           <li class="nav-item ms-lg-auto pt-1 pe-4">
-            <button class="button_gold" data-bs-toggle="modal" data-bs-target="#modal_reserva">RESERVAR HORÁRIO</button>
+            <a href="https://reservas.loshermanosmarilia.com.br"><button class="button_gold">RESERVAR HORÁRIO</button></a>
           </li>
         </ul>
       </div>
@@ -45,7 +45,6 @@ import Services from '@/components/Services.vue';
     <Services />
     <Barber />
     <Gallery />
-    <Modal />
   </main>
   
   <footer class="fundo_dark">
