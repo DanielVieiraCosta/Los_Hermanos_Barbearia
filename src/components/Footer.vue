@@ -24,7 +24,7 @@
           <div class="d-flex gap-2 justify-content-center">
             <a href="https://www.instagram.com/loshermanosmarilia/"  target="_blank"><i class="bi bi-instagram font_secundaria"></i></a>
             <a href="https://www.facebook.com/loshermanosmarilia/?locale=pt_BR" target="_blank"><i class="bi bi-facebook font_secundaria"></i></a>
-            <a href="https://w.app/barbearialoshermanos" target="_blank"><i class="bi bi-whatsapp font_secundaria"></i></a>
+            <a href="http://wa.me/5514991263898" target="_blank"><i class="bi bi-whatsapp font_secundaria"></i></a>
           </div>
         </div>
       </div>
